@@ -1,0 +1,133 @@
+<html lang="ru">
+    <head>
+        <link href="MainSiteCSS.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <title>Генератор опровданий пропусков</title>
+    </head>
+    <body>
+        <div class = "All">
+            <div id="Back" class="Background">
+                <div class="ThemeButton">
+                    <div class="Theme"> 
+                        <div class="ThemeText"><b>Тема</b></div>
+                    </div>
+                </div>
+
+                <div class="SheetFrame">
+
+                     <div class="Sheet">
+
+                        <div class="Text1">
+                            Обяснительная
+                        </div>
+                        <div class="TextDate">
+                            <div id="textdate"></div>
+                        </div>
+                        <div class="Text2">
+                            Заведующему отделением ПОИТ
+                        </div>
+
+                     </div>
+
+                </div>
+
+                <div class="TodayDate">
+                    <form>
+                        <label for="name">Сегодняшняя дата (День.Мес.Год)</label><br>
+                            <input type="text" id="DateD" size="2">
+                            <input type="text" id="DateM" size="3">
+                            <input type="text" id="DateY" size="3">
+                            <input id="butt1" type="button" value="ОК">
+                            <input id="buttX1" type="button" value="X">
+                    </form>
+                </div>
+                <div class="ToWhom">
+                    <form>
+                        <label for="name">Кому (ФИО)</label><br>
+                        <input type="text" id="ToWho" >
+                        <input id="butt2" type="button" value="ОК">
+                        <input id="buttX2" type="button" value="X">
+                    </form>
+                </div>
+                <div class="Institution">
+                    <form>
+                        <label for="name">Учреждение (название)</label><br>
+                        <input type="text" id="Facility">
+                        <input id="butt3" type="button" value="ОК">
+                        <input id="buttX3" type="button" value="X">
+                    </form>
+                </div>
+                <div class="WhoWrites">
+                    <form>
+                        <label for="name">Кто пишет (ФИО)</label><br>
+                        <input type="text" id="ByWho">
+                        <input id="butt4" type="button" value="ОК">
+                        <input id="buttX4" type="button" value="X">
+                    </form>
+                </div>
+                <div class="WhenAbsent">
+                    <form>
+                        <label for="name">Когда отсутствовал (Д.М.Г)</label><br>
+                        <input type="text" id="When">
+                        <input id="butt5" type="button" value="ОК">
+                        <input id="buttX5" type="button" value="X">
+                    </form>
+                </div>
+                <div class="Curator">
+                    <form>
+                        <label for="name">ФИО куратора</label><br>
+                        <input type="text" id="Kur">
+                        <input id="butt6" type="button" value="ОК">
+                        <input id="buttX6" type="button" value="X">
+                    </form>
+                </div>
+                <div class="Originality">
+                    <form>
+                        <label for="name">Оригинальность оправдания (1-10)</label><br>
+                        <input type="text" id="OrigVal">
+                        <input id="butt7" type="button" value="ОК">
+                        <input id="buttX7" type="button" value="X">
+                    </form>
+                </div>
+                <div class="Reset" align="center">
+                    <span style="vertical-align: middle">
+                        <b>Очистить</b>
+                    </span>     
+                </div>
+                
+                <script>
+                    buttX1.onclick = function() {
+                        document.getElementById("Date").value = "";
+                    };
+                    buttX2.onclick = function() {
+                        document.getElementById("ToWho").value = "";
+                    };
+                    buttX3.onclick = function() {
+                        document.getElementById("Facility").value = "";
+                    };
+                    buttX4.onclick = function() {
+                        document.getElementById("ByWho").value = "";
+                    };
+                    buttX5.onclick = function() {
+                        document.getElementById("When").value = "";
+                    };
+                    buttX6.onclick = function() {
+                        document.getElementById("Kur").value = "";
+                    };
+                    buttX7.onclick = function() {
+                        document.getElementById("OrigVal").value = "";
+                    };
+                    butt1.onclick = function() {
+                        var val1 = document.getElementById('DateD').value;
+                        var val2 = document.getElementById('DateM').value;
+                        var val3 = document.getElementById('DateY').value;
+                        document.getElementById('textdate').innerHTML=val1 +"."+ val2 +"."+ val3;
+                    };
+                </script>
+
+
+            </div>
+        </div>
+
+    </body>
+</html>

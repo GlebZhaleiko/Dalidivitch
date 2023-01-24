@@ -1,0 +1,220 @@
+
+/* All */
+.All{
+position: relative;
+width: 800;
+height: 1000px;
+}
+
+
+/* Background */
+.Background{
+position: absolute;
+width: 800;
+height: 800;
+left: 0px;
+top: 0px;
+background: #D9D9D9;
+}
+
+
+/* ThemeButton */
+.ThemeButton{
+position: absolute;
+width: 75px;
+height: 75px;
+left: 25px;
+top: 25px;
+border-radius: 10px;
+}
+/* Theme */
+.Theme{
+position: absolute;
+width: 75px;
+height: 75px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border-radius: 25px; 
+}
+/* ТЕМА */
+.ThemeText{
+position: absolute;
+width: 35px;
+height: 15px;
+left: 25px;
+top: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #2f00ff;
+}
+.Theme:hover{
+    background-color:black;
+}
+
+
+/* SheetFrame */
+.SheetFrame{
+position: absolute;
+width: 500px;
+height: 600px;
+right: 5px;
+bottom: 75px;
+}
+/* Sheet */
+.Sheet{
+position: absolute;
+width: 500px;
+height: 600px;
+right: 5px;
+bottom: 0px;
+background: #FFFFFF;
+border-radius: 10px;   
+}
+
+
+/* TodayDate */
+.TodayDate{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 125px;
+background: #8D92FF;
+border-radius: 5px;
+}
+/* ToWhom */
+.ToWhom{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 189px;
+background: #8D92FF;
+border-radius: 5px;
+}
+/* Institution */
+.Institution{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 253px;
+background: #8D92FF;
+border-radius: 5px; 
+}
+/* WhoWrites */
+.WhoWrites{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 317px;
+background: #8D92FF;
+border-radius: 5px;
+}
+/* WhenAbsent */
+.WhenAbsent{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 381px;
+background: #8D92FF;
+border-radius: 5px;  
+}
+/* Curator */
+.Curator{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 445px;
+background: #8D92FF;
+border-radius: 5px;
+}
+/* Originality */
+.Originality{
+position: absolute;
+width: 250px;
+height: 50px;
+left: 25px;
+top: 509px;
+background: #8D92FF;
+border-radius: 5px;
+}
+
+/* Reset */
+.Reset{
+position: absolute;
+width: 125px;
+height: 50px;
+left: 475px;
+top: 739px;
+background: #8D92FF;
+border-radius: 5px;
+}
+.Reset:hover{
+    background-color: #4049ff;
+}
+
+
+/* Объяснительная */
+.Text1{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    right: 320px;
+    bottom: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+/* Дата */
+.TextDate{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    right: 320px;
+    bottom: 520px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+/* Заведующему отделением ПОИТ */
+.Text2{
+    position: absolute;
+    width: 220px;
+    height: 25px;
+    right: 0px;
+    bottom: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+
+
+
+
+
+
+
