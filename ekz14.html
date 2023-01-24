@@ -1,0 +1,92 @@
+<hmtl>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <style>
+        .background{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: grey;
+        }
+
+
+
+        img{
+            object-position: center center;
+        }
+
+        .flex-container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: ;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .block{
+            position: relative;
+            width: 150px;
+            height: 300px;
+            margin: 50px;
+            background: white;
+
+            align-items: center;
+            border: 2px solid black;
+
+            overflow: hidden;
+
+            box-shadow: 5px 5px 4px;
+        }
+
+        .bin_but{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 90%;
+            background-color: azure;
+        }
+    </style>        
+    <body>
+        <div class="background">
+            <div id="bin" class="bin_but" onclick="window.location.href='ekz14p2.html'">корзина</div>
+            <div class="flex-container">
+                <div class="block">
+                    <center>
+                        <p style="text-align: center;">
+                            <img class="img" src="pic1.png" width="120px" height="120px">
+                        </p>         
+                        <p>Товар 1 воапрварпл
+                            ваиплваплов</p>               
+                        <input type="button" value="в корзину">
+                    </center>
+                </div>
+                <div class="block">
+                    <center>
+                        <p style="text-align: center;">
+                            <img class="img" src="pic1.png" width="120px" height="120px">
+                        </p>             
+                        <p>Товар 2 воапрварпл
+                            ваиплваплов</p>              
+                    </center>
+                </div>
+                <div class="block">
+                    <center>
+                        <p style="text-align: center;">
+                            <img class="img" src="pic1.png" width="120px" height="120px">
+                        </p>   
+                        <p>Товар 3 воапрварпл
+                            ваиплваплов</p>                        
+                    </center>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+
+    </script>
+</hmtl>
